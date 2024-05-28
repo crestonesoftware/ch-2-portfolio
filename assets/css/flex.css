@@ -1,0 +1,47 @@
+main section {
+    max-width: 1280px;
+}
+
+main section div{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.flex-child-first {
+    flex: 2 2 320px;
+}
+
+.flex-child-n {
+    display: flex;
+    flex: 1 1 160px;
+}
+
+@media screen and (min-width: 480px) {
+    .flex-child-first {
+        flex: 2 2 480px;
+    }
+    
+    .flex-child-n {
+        flex: 1 1 240px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .flex-child-first {
+        flex: 2 2 720px;
+    }
+    
+    .flex-child-n {
+        flex: 1 1 360px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .flex-child-first {
+        flex: 2 2 1080px;
+    }
+    
+    .flex-child-n {
+        flex: 1 1 540px;
+    }
+}
