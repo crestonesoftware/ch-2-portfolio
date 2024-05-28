@@ -10,11 +10,12 @@
 <body>
     <!-- header -->
     <header>
-        <div style="name-in-header">
+        <div class="name-in-header">
             <!-- name -->
             <h1>Lernantino</h1>
         </div>
-        
+        </div>
+        <div>
         <!-- nav bar -->
         <nav>
             <ul>
@@ -41,7 +42,7 @@
     <!-- hero banner -->
     <section class="hero">
         <!-- hero image -->
-            <img src="./assets/images/turtle-horizontal.jpg" alt="log that looks like a turtle head">
+            <img src= "./assets/images/turtle-horizontal.jpg" alt="log that looks like a turtle head">
             <!-- hero image subtitle -->
             <div class="hero-subtitle">            
                 <h2>Full-Stack Supermonkey!</h2>
@@ -49,9 +50,9 @@
     </section>
     <!-- main content -->
     <main>
-        <section>
+        <section id="about-me" class="body-row">
             <!-- about me row -->
-            <div id="about-me" class="body-row">
+            <!-- <div id="about-me" class="body-row"> -->
                 <!-- label area -->
                 <div class="body-left-column">
                     <!-- label about me -->
@@ -79,9 +80,11 @@
                     </p>
                 </div>
                 
-            </div>
+            <!-- </div> -->
+        </section>
+        <section>
             <!-- projects row -->
-            <div id="projects" class="body-row">
+            <div id="projects-orig" class="body-row">
                 <!-- label area -->
                 <div class="body-left-column">
                     <!-- label work -->
@@ -94,57 +97,22 @@
                     
                 </div>
                 <!-- projects area -->
-                <div class="body-right-column">
-                    <!-- projects -->
-                    <div class="projects-row-first">
-                        <!-- first project -->
-                        <div class="project-card">
-                            <!-- project image -->
-                            <img class="project-image" src="./assets/images/wave 2 wide.jpg" alt="log that looks like a turtle head">
-                            <!-- first project title -->
-                            <div class="project-card-title-box">            
-                                <h3>Surf Report</h3>
-                                <p>MERN Stack</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projects-row">
-                        <div class="project-card project-card-n">
-                            <!-- project image -->
-                            <img class="project-image" src="./assets/images/wave 2 wide.jpg" alt="log that looks like a turtle head">
-                            <!-- first project title -->
-                            <div class="project-card-title-box">            
-                                <h3>LED Wall</h3>
-                                <p>Node/IoT</p>
-                            </div>
-                        </div>
+            <div class="body-right-column">
+                <!-- projects row respsonsive-->
+                <div id="projects" class="projects">
+                    <!-- several cards, children of same parent, flex, first one has 2 in flex, others start with 1 -->
+                    <!-- first card flex 2,0,400 -->
 
-                        <div class="project-card project-card-n">
-                            <!-- project image -->
-                            <img class="project-image" src="./assets/images/wave 2 wide.jpg" alt="">
-                            <!-- first project title -->
-                            <div class="project-card-title-box">            
-                                <h3>Calculator</h3>
-                                <p>React/JavaScript/CSS</p>
-                            </div>
-                        </div>
-                        </div>
-                            <!-- project label tab -->
-                                <!-- project title -->
-                                <!-- project type -->
-                        <!-- project -->
-                            <!-- project image -->
-                            <!-- project label tab -->
-                                <!-- project title -->
-                                <!-- project type -->
-                        <!-- project -->
-                            <!-- project image -->
-                            <!-- project label tab -->
-                                <!-- project title -->
-                                <!-- project type -->
 
+                        <img class="project-image" src="./assets/images/camera.jpg" alt="wave">
+                        <img class="project-image" src="./assets/images/tablet.jpg" alt="wave">
+                        <img class="project-image" src="./assets/images/toilet-paper.jpg" alt="wave">
+                        <img class="project-image" src="./assets/images/wooden-spoons.jpg" alt="wave">
+
+
+                    
+                    <!-- following cards flex, 1, 0, 200 -->
                 </div>
-                
             </div>
         </section>
     </main>
