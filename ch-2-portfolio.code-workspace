@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../horiseon"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ch-2-portfolio"
+	}
+}
